@@ -1,0 +1,110 @@
+/* styles for the grocery list */
+ul {
+    list-style-type: none;
+    padding: 20px;
+    margin-left: 100px;
+  }
+  h1{
+    margin-left: 60px;
+    color: white;
+  }
+  
+  li {
+  color:white;
+    display: flex;
+    width: 500px; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+   border: 1px solid #ccc;
+    margin-bottom: 0.5rem;
+  }
+  .clear{
+  margin-left:350px ;
+  background-color: black;
+
+
+
+  }
+  .hov:hover{
+    background-color: green;
+  }
+  li:hover {
+    background-color: #696464;
+  }
+  
+  li svg {
+    cursor: pointer;
+    margin-left: 1rem;
+  }
+  .edit{
+    color: rgb(112, 253, 112);
+  }
+  .delete{
+    color: red;
+  }
+  /* styles for the form */
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+  .whole{
+    margin-left: 140px;
+    width: 600px;
+background-color:rgb(20, 21, 21);
+  }
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+ 
+  input[type="text"] {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+   width: 450px;
+    margin-bottom: 1rem;
+  }
+  
+  button[type="submit"]
+  {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #23c5af;
+    
+    color: #fff;
+    margin-right: 1rem;
+  }
+  button[type="button"] {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #cf112d;
+    
+    color: #fff;
+    margin-right: 1rem;
+  }
+  button[type="submit"]:hover{
+    background-color: #11da47;
+ 
+  }
+  
+  button[type="submit"]:hover,
+  button[type="button"]:hover {
+    background-color: #0070c9;
+  }
+  
+  button[type="submit"]:focus,
+  button[type="button"]:focus {
+    outline: none;
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+  }
